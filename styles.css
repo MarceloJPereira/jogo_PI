@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.grid {
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 0.4fr 0.7fr 2fr;
+    align-items: center;
+    height: 100vh; /* Para ocupar 100% da altura da tela */
+    background-color: #080808;
+    
+    
+}
+
+.container {
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #4CAF50;
+}
+
+.item {
+    
+    border-radius: 10%;
+    width: 60px;
+    height: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: grab;
+    margin-bottom: 2px;
+}
+
+.drop-zone {
+    background-color: #ffffff;
+    width: 100%; 
+    height: 100%; 
+    border: 2px dashed #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+    flex-direction: column;
+    font-size: 20px;
+    color: #4CAF50;
+}
+
+.drop-zone:hover {
+    background-color: #036e33;
+    color: #ffffff;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+   
+
+}
+.game, .map{
+    align-content: center;
+    background-color: #ffffff;
+    width: 680px;
+    height: 680px;
+
+
+
+}
+
+.obj{
+    position: relative;
+}
+.obj img{
+    width: 80px;
+    height: 80px;
+    
+
+
+}
+.logo{
+    width: 50px;
+    height: 50px;
+
+
+
+
+
+
+
+}
