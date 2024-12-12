@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrastar e Soltar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="grid">
+
+          <div class="logo">
+
+            <div class="blocks">
+              <figure>
+                <img src="img/logo nova positivo.png" alt="">
+              </figure>
+              
+              <div class="item" id="4" draggable="true">Right</div>
+              <div class="item" id="1" draggable="true">Left</div>
+              <div class="item" id="2" draggable="true">Up</div>
+              <div class="item" id="3" draggable="true">Down</div>
+            </div>
+        </div>
+        <div class="drop-zone">Solte aqui!</div>
+
+        <div class="block">
+            <div class="game">
+                  <h3 class="obj"><img src="img/personagem1.webp" alt=""></h3>
+
+                  <!-- <div class="wall" style="top: 0px; left: 0px; width: 680px; height: 280px;"></div> -->
+                  <div class="wall" style="bottom: 0px; left: 0px; width: 580px; height: 250px;"></div>
+                  <div class="wall" style="top: 0px; left: 00px; width: 580px; height: 230px;"></div>
+                  <!-- <div class="wall" style="bottom: 0px; left: 0; width: 300px; height: 300px;"></div>
+                  <div class="wall" style="bottom: 100px; left: 410px; width: 680px; height: 340px;"></div> -->
+                  <!-- <div class="wall" style="top: 150px; left: 100px; width: 30px; height: 100px;"></div>
+                  <div class="wall" style="top: 250px; left: 0; width: 300px; height: 20px;"></div> -->
+             </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
